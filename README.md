@@ -19,10 +19,10 @@ The following still follows the Agile [Scrum methodology](https://www.atlassian.
 - Each epic will consist of user stories
 - Each story must a have a well defined acceptance criteria
 - Each story must have a story point estimate to be decided by potential devs that will work on it or all devs that are capable.
-  - Stories must be of the least potentially just 1 story per day. If it won't fit then it will be broken down to smaller stories.
+  - Stories must be estimated to the least time and effort to get close to just 1 story per workshift. If it won't fit then it will be broken down to smaller stories.
   - Story point estimataion must not be taken lightly, each developer will have a couple of days to assess and change estimates if needed.
-- Velocity chart and burndown charts will not be observed.
-- Sprint grooming and daily scrum is purely technical, a manager if he/she wants may sit-in to observe but intervene.
+- Velocity chart and burndown charts will not be used / observed.
+- Sprint grooming and daily scrum is purely technical, a manager if he/she wants may sit-in to observe but not intervene.
 - Daily scrum lasts only 15minutes tops.
 - After all devs have gotten their in-progress / rework stories. After the scrum.
 - They will post it to the "WebApp Team" with story ID and name.
