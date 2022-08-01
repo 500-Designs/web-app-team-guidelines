@@ -1,35 +1,39 @@
 <div align="center">
-  <h1>500 Designs Web App Team - Custom Scrum Guidelins</h1>
+  <h1>500 Designs Web App Team - Scrum Guidelines</h1>
 </div>
 
-Since we don't have scrum master, as of writing.
-Current Lead Developer will be the scrum master for now.
-
-Here are our team guideliness:
-
-The following still follows the Agile [Scrum methodology](https://www.atlassian.com/agile/scrum) for software development but have slight modifications to give adjustment period for the new team structure and syncing with managers.
-
-- Before a sprint starts or any code is written for that sprint the following must be agreed upon and verified through sprint grooming (SG)
+#### Sprint requirements
+- Before a sprint starts or any code is written for it, the following must be set and verified through sprint grooming (SG)
   - Requirements
   - Goals
   - Assignments
   - Deliverables
+  - Known unkowns
   - Backlogs
-- We will break down sprints into epic, each epic is a feature or a major component of the to be delivered at the end of the sprint.
-- Each epic will consist of user stories
-- Each story must a have a well defined acceptance criteria
-- Each story must have a story point estimate to be decided by potential devs that will work on it or all devs that are capable.
-  - Stories must be estimated to the least time and effort to get close to just 1 story per workshift. If it won't fit then it will be broken down to smaller stories.
+- Sprints are broken down into epics, each epic is a feature or a major project component to be delivered at the end of the sprint.
+- Each epic will consist of user stories to be assigned as tasks for
+- Each story must a have a well defined acceptance criteria and keep unknowns to a minimal
+- Each story must have a story point estimate to be confirmed by assigned devs or all devs that are capable if not yet assigned.
+  - Stories must be estimated through time and 0, 0.5, 1, 2, 3, 5, 8, with 8 consuming 1 work shift.
+  - Place holder stories for "known unkowns" must have a max of 3 point estimates.
+  - If it won't fit then it will be broken down to smaller stories. Estimate values will be .
   - Story point estimataion must not be taken lightly, each developer will have a couple of days to assess and change estimates if needed.
-- Velocity chart and burndown charts will not be used / observed.
-- Sprint grooming and daily scrum is purely technical, a manager if he/she wants may sit-in to observe but not intervene.
-- Daily scrum lasts only 15minutes tops.
-- After all devs have gotten their in-progress / rework stories. After the scrum.
-- They will post it to the "WebApp Team" with story ID and name.
-- The status meeting with managers:
+- Blocking stories must be determined and linked
+  - Sprint grooming and daily scrum is purely technical, a manager may sit-in to observe but not intervene.
+#### Walking the board: 
+  - Daily scrum Lasts only 15minutes 
+  - Each story has a corresponding repo branch with format from "PR Requirements" section of the project repo, after a PR has been approved by Project Lead and merged, it will be moved to QA
+  - Unless Approved by QA, it will be go back to 'rework' state and budget for "known unkowns" will be utilized for story point estimate
+  - Any non-moving stories will be set to blocked/rework, blocking details should be indicated as comment 
+  - Budget for "known unkowns" will be utilized for creating stories for resolving the blocked or non moving stories
+  - After all devs have gotten their in-progress/rework stories, they will post it to the "WebApp Team" chat space as their daily TO-DOs: with story ID and when the start their next shift.
+
+#### The status meeting with managers:
+  - Velocity chart and burndown charts will be used by the manager.
   - Separate from sprint grooming or daily scrums.
   - It is where we can present to managers or product owners a demo of a feature, or component after a sprint is completed.
 - After a SG has been completed, a clear and concise documentation for the Sprint goals and deliverables will be presented to the managers and product owners before the Sprint starts.
+- There will be back burner stories from the backlogs to to assign if devs complete there stories before the sprint ends or the "known unknowns" placeholder stories wasn't utilized.
 
 ### Design Force Portal specific notes:
 
@@ -39,21 +43,19 @@ The following still follows the Agile [Scrum methodology](https://www.atlassian.
 - The first sprint as Sprint 0, since it won't cover the whole full week.
 - And it will comprise mostly newly onboarded web app team, getting the hang of the process.
 
-### Intial sprint schedule
+### Intial sprint schedules
 
 Sprint 0 [Aug 1-5, 2022]:
 
-- Lightweight tasks for will be assigned for each dev to work on the remaining week until Aug 5.
-- We will have 2 Sprint Grooming session. This grooming session will be for Sprint 1, which will start Aug 8.
-  - 1st session: Aug 2. We will create acceptance criteria for each story and all devs with have a change to give initial estimates.
-    - After the grooming each dev, will assess and add more acceptance criteria (AC) as he/she sees fit to his assigned stories.
-    - The assigned dev will write a short technical description, if there are dependecies or requirements to achieve the (AC) that have don't exist yet.
-    - If initial estimates are not possible or unclear, a comment to tag the scrum master should be added so that on the next SG this will be adjusted and deliverables for the sprint will be adjusted acordingly.
-  - 2nd Session. (To be determined). this session will circle back to all created stories and each assigned dev will be asked if his /her estimate is still possible or it needs to be adjustment. This will conclude the sprint.
+- Lightweight or introductory tasks will be assigned for each dev to work on the remaining days of week until Aug 5.
+- The first grooming session will be cover small task assignments for Aug 1-5 period. 
+- The second grooming session will be for Sprint 1 that starts Aug 8.
+    - so the 2nd grooming session should happen before then.
+    - During grooming, each will assess and add more acceptance criteria (AC) to his/her assigned stories as needed
+    - Determine if there are dependecies or requirements to achieve the (AC) that have don't exist yet.
+  - Beyond the sprint grooming session, each developer must take time to assess assigned stories if there has to be adjustments in estimates or requirements. 
+  - If there is, he/she has to tag the Lead developer on the story before the middle of the current sprint so adjustments can be made.
 
 Sprint 1 [Aug 8-9, 2022]:
+Sprint 2 [Aug 8-9, 2022]:
 
-- Potential goal:
-  - Client Dashboard Landing page and onboarding flow
-  - Java based API, authentication user tables setup
-  - Automated testing tools setup, Jest & storybook
