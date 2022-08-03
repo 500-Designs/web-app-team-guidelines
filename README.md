@@ -4,8 +4,8 @@
 
 #### Sprint requirements
 - Before a sprint starts or any code is written for it, the following must be set and verified through sprint grooming (SG)
-  - Requirements
   - Goals
+  - Requirements
   - Assignments
   - Deliverables
   - Known unkowns
@@ -33,29 +33,24 @@
   - Separate from sprint grooming or daily scrums.
   - It is where we can present to managers or product owners a demo of a feature, or component after a sprint is completed.
 - After a SG has been completed, a clear and concise documentation for the Sprint goals and deliverables will be presented to the managers and product owners before the Sprint starts.
-- There will be back burner stories from the backlogs to to assign if devs complete there stories before the sprint ends or the "known unknowns" placeholder stories wasn't utilized.
+- There will be back burner stories from the backlogs to to assign if devs complete there stories before the sprint ends or the "known unknowns" placeholder stories weren't utilized.
 
 ### Design Force Portal specific notes:
 
 - Automations to be setup by lead dev on later sprints:
-  - Automated tests to test each acceptance criteria
+  - Automated tests for each acceptance criteria through jest and cypress
   - CI pipeless for deployment for each story to be passed for QA/rework
-- The first sprint as Sprint 0, since it won't cover the whole full week.
-- And it will comprise mostly newly onboarded web app team, getting the hang of the process.
 
-### Intial sprint schedules
+### Sprint schedules and initial goals
 
 Sprint 0 [Aug 1-5, 2022]:
+  - System design
 
-- Lightweight or introductory tasks will be assigned for each dev to work on the remaining days of week until Aug 5.
-- The first grooming session will be cover small task assignments for Aug 1-5 period. 
-- The second grooming session will be for Sprint 1 that starts Aug 8.
-    - so the 2nd grooming session should happen before then.
-    - During grooming, each will assess and add more acceptance criteria (AC) to his/her assigned stories as needed
-    - Determine if there are dependecies or requirements to achieve the (AC) that have don't exist yet.
-  - Beyond the sprint grooming session, each developer must take time to assess assigned stories if there has to be adjustments in estimates or requirements. 
-  - If there is, he/she has to tag the Lead developer on the story before the middle of the current sprint so adjustments can be made.
+Sprint 1 [Aug 8-19, 2022]:
+  - BE design
+  - mini UI components
 
-Sprint 1 [Aug 8-9, 2022]:
-Sprint 2 [Aug 8-9, 2022]:
+Sprint 2 [Aug 22-Sep 2, 2022]:
+  - login
+  - dashboards
 
