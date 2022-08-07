@@ -15,10 +15,10 @@
 -   Each epic will consist of user stories to be assigned as tasks for
 -   Each story must a have a well defined acceptance criteria and keep unknowns to a minimal
 -   Each story must have a story point estimate to be confirmed by assigned devs or all devs that are capable if not yet assigned.
-    -   Stories must be estimated through time and 1, 2, 3, 5, 8, with 8 consuming 1 work shift.
-    -   Place holder stories for "known unkowns" must have a max of 5 point estimates.
-    -   If story ACs won't fit 8 then it will be broken down to smaller stories.
-    -   Story point estimation must not be taken lightly, each assigned developer will to assess and confirm during sprint grooming and change if needed before grace period for Sprint grooming ends.
+    - Stories must be estimated through time and 1, 2, 3, 4, 5; with 5 consuming 1 work shift.
+    - If a story's estimate won't fit 5 then it will be broken down to smaller stories.
+    - Placeholder stories for "known unkowns" must have a max of 5 point estimates.
+    - Story point estimation must not be taken lightly, each assigned developer will to assess and confirm during backlog grooming and change if needed before next Sprint Planning ends.
 -   Blocking stories must be determined and linked
     -   Sprint grooming and daily scrum is purely technical, a manager may sit-in to observe but not intervene.
 
